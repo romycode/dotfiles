@@ -1,0 +1,40 @@
+# JetBrains
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode
+
+# Node.js
+node_modules/
+.npm
+.pnpm-store/
+
+
+# Go, PHP
+vendor
+
+# Python
+venv
+.venv
+*.pyc
+# ansible-vault
+*vaultPass*
+
+# Logs
+log/
+logs/
+*.log
+*.sql
+*.sqlite
+
+# OS files
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
+*~

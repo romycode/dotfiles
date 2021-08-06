@@ -1,0 +1,6 @@
+[submodule "script/rofi/deps/rofi"]
+	path = script/rofi/deps/rofi
+	url = https://github.com/davatorium/rofi.git
+[submodule "script/alacritty/deps/alacritty"]
+	path = script/alacritty/deps/alacritty
+	url = https://github.com/alacritty/alacritty.git

@@ -1,0 +1,25 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+	excludesFile = ~/.gitignore
+[user]
+	name  = "Albert Romera Mulero"
+	email = "albert.romera.arm@gmail.com"
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[alias]
+	a  = add
+	aa = add -A
+	st = status
+	pf = push -f
+	pu = push
+	ch = checkout
+	cb = checkout -b
+	cm = commit
+	ca = commit --amend
+	b  = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
+
