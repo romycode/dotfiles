@@ -6,7 +6,7 @@ alacritty_install() {
     sudo apt-get install \
         python3 cmake pkg-config \
         libfreetype6-dev libfontconfig1-dev \
-        libxcb-xfixes0-dev
+        libxcb-xfixes0-dev libxkbcommon-dev
 
     which cargo || curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -yq
 
