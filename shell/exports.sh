@@ -30,6 +30,7 @@ export path=(
     "${DOTFILES_APPS_INSTALL_PATH}/rofi/bin"
     "${DOTFILES_APPS_INSTALL_PATH}/go/bin"
     "${DOTFILES_APPS_INSTALL_PATH}/nvim/bin"
+    "${DOTFILES_PATH}/bin"
     "${CARGO_PATH}/bin"
     "${HOME}/snap/bin"
     "/usr/local/games"
