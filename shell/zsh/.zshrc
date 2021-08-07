@@ -92,9 +92,5 @@ else
   export EDITOR='nvim'
 fi
 
-# Load ssh keychain
-eval `keychain -q -Q --noask --eval`
-source $HOME/.keychain/$HOST-sh
-
 # Load .dotfiles environment
 . "${DOTFILES_PATH}/shell/init.sh"
