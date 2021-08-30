@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 export DOTFILES_PATH=$(dirname "$0")
 
 ln -s ${dotfiles_path}/shell/zsh/.zimrc   ${ZDOTFILES}/.zimrc
@@ -8,7 +7,6 @@ ln -s ${dotfiles_path}/shell/zsh/.zshenv  ${ZDOTFILES}/.zshenv
 ln -s ${dotfiles_path}/shell/zsh/.zshrc   ${ZDOTFILES}/.zshrc
 
 apps=$(ls ${dotfiles_path}/scripts)
-
 for app in $apps; do
     ${dotfiles_path}/scripts/${app}/install.sh
 done

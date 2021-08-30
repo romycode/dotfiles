@@ -5,12 +5,12 @@ version=$(
    | grep tag_name \
    | awk '{print $2}' \
    | tr -d '\"|,' \
-   | head -n1
+   | head -n 1
 )
 
 deno_install() {
-  sudo mkdir -p ${HOME}/.local/apps/deno/cache
-  sudo chmod 775 ${HOME}/.local/apps/deno/cache
+  sudo mkdir -p ${HOME}/.local/apps/cache/deno
+  sudo chmod 775 ${HOME}/.local/apps/cache/deno
 
   curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=${HOME}/.local/apps/deno sh -s "$version"
 }

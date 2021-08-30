@@ -8,7 +8,7 @@ url=$(
     grep "linux-amd" |
     grep -oe '\"/dl/.*\"' |
     tr -d \" |
-    awk '{print "https://golang.org/"$1}' |
+    awk '{print "https://golang.org"$1}' |
     head -n 1
 )
 file=$(echo $url | awk '{print substr($1, 24)}')
