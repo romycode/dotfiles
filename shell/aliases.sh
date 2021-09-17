@@ -2,6 +2,9 @@
 
 unalias -a
 
+# Debian package manager
+alias apt='sudo apt-get'
+
 # Clear
 alias clear='clear -x'
 
