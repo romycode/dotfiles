@@ -10,8 +10,9 @@
 #----------------------------------------------------------------
 
 # .dotfiles path
-export DOTFILES_PATH=${HOME}/code/romycode/dotfiles
+export DOTFILES_PATH=${HOME}/code/romycode/projects/dotfiles
 
 # Load .dotfiles environment
 . "${DOTFILES_PATH}/shell/exports.sh"
 
+. "$HOME/.cargo/env"

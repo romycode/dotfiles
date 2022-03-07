@@ -9,10 +9,10 @@ version=$(
 )
 
 deno_install() {
-  sudo mkdir -p ${HOME}/.local/apps/cache/deno
-  sudo chmod 775 ${HOME}/.local/apps/cache/deno
+  sudo mkdir -p "${HOME}"/.local/apps/cache/deno
+  sudo chmod 775 "${HOME}"/.local/apps/cache/deno
 
-  curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=${HOME}/.local/apps/deno sh -s "$version"
+  curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL="${HOME}"/.local/apps/deno sh -s "$version"
 }
 
 deno_install

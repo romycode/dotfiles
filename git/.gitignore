@@ -1,6 +1,7 @@
 # JetBrains
 .idea/
 out/
+build/
 *.iml
 *.ipr
 *.iws
@@ -12,17 +13,19 @@ node_modules/
 .pnpm-store/
 # Go, PHP
 vendor
+testdata
+.composer
 # Python
 venv
 .venv
 *.pyc
 # ansible-vault
 *vaultPass*
+*vault_pass*
 # Logs
 log/
 logs/
 *.log
-*.sql
 *.sqlite
 # OS files
 .DS_Store
